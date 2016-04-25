@@ -1,0 +1,28 @@
+{
+    "name": "anomaly/session-plugin",
+    "type": "streams-addon",
+    "description": "A Streams Platform plugin that provides API access to Laravel's Session class.",
+    "keywords": [
+        "streams",
+        "plugin",
+        "session"
+    ],
+    "homepage": "http://pyrocms.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PyroCMS, Inc.",
+            "email": "support@pyrocms.com",
+            "homepage": "http://pyrocms.com/",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "support@anomaly.is"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\SessionPlugin\\": "src/"
+        }
+    }
+}
